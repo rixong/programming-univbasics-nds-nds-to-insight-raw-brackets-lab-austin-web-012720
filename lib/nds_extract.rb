@@ -10,5 +10,5 @@ def directors_totals(nds)
     }
 	dirs_total[director[:name] => ind_total]
   }
-  return 
+  return dirs_total
 end
