@@ -6,8 +6,9 @@ def directors_totals(nds)
     total = 0
     director[:movies].each |movie| {
 		total += movie[:worldwide_gross]
-	end
+    }
 	dir_earnings[director[:name] => total]
+  }
 end
 
   
