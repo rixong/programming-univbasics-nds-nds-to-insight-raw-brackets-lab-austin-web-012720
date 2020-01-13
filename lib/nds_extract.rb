@@ -4,7 +4,7 @@ require 'directors_database'
 def directors_totals(nds)
   nds.each { |director| 
     total = 0
-    director{:movies].each |movie| {
+    director[:movies].each |movie| {
 		total += movie[:worldwide_gross]
 	end
 	dir_earnings[director[:name] => total]
