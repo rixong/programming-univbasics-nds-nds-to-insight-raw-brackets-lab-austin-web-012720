@@ -10,9 +10,9 @@ def directors_totals(nds)
     director[:movies].each { |movie|
     # p movie[:worldwide_gross]
 		ind_total += movie[:worldwide_gross]
-		p ind_total
     }
 	dirs_total[director[:name] => ind_total]
+		p ind_total
   }
   return dirs_total
 end
