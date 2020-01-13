@@ -1,6 +1,8 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
+puts "dog"
+
 def directors_totals(nds)
   dirs_total = {}
   nds.each { |director| 
