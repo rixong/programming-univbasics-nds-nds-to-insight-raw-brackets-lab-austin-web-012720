@@ -12,7 +12,7 @@ def directors_totals(nds)
 		ind_total += movie[:worldwide_gross]
     }
 	dirs_total[director[:name] => ind_total]
-		p ind_total
+	p dirs_total
   }
   return dirs_total
 end
